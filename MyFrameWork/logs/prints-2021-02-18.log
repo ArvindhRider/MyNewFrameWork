@@ -1,0 +1,7 @@
+18:34:37.942 [main] INFO  Project.MyFrameWork.HomePageTest - the user is passs
+18:40:02.381 [main] INFO  Project.MyFrameWork.HomePageTest - driver is started
+18:40:06.498 [main] INFO  Project.MyFrameWork.HomePageTest - url is started
+18:40:09.104 [main] INFO  Project.MyFrameWork.HomePageTest - driver is started
+18:40:09.149 [main] INFO  Project.MyFrameWork.HomePageTest - Landing page is started 
+18:40:14.763 [main] INFO  Project.MyFrameWork.HomePageTest - Login page is started
+18:40:19.764 [main] INFO  Project.MyFrameWork.HomePageTest - the user is tester1@gmail.com

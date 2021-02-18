@@ -54,7 +54,7 @@ WebDriver driver;
 		//Login page 
 		
 		
-		Thread.sleep(5000);
+		
 		log.info("the user is "+ user);
 		lop.email().sendKeys(user);
 		log.info("the user is "+ pass);

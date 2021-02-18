@@ -65,7 +65,7 @@ public class HomePageTest extends DriverClass
 	
 	
 		//Assertion tech
-		Assert.assertEquals(lp.title().getText(), "FEATURErD COURSES");
+		Assert.assertEquals(lp.title().getText(), "FEATURED COURSES");
 		
 		//To check if navigation bar is present
 		Assert.assertTrue(lp.NavBar().isDisplayed());

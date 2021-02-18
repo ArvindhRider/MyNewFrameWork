@@ -26,7 +26,7 @@ public class HomePageTest extends DriverClass
 {
 	WebDriver driver;
 	
-	
+	//new line added for git
 	//Introducing the log object here 
 	public static Logger log = LogManager.getLogger(HomePageTest.class.getName());
 	

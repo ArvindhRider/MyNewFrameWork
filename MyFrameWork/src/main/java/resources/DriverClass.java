@@ -39,7 +39,7 @@ public class DriverClass
 	
 		public WebDriver initdriver() throws IOException
 	{
-		//Reading the data from the prop file
+		//Reading the data from the prop file and passing it here 
 		 prop = new Properties();
 		String PropPath = "C:\\Users\\ARVINDH\\git\\repository\\MyFrameWork\\src\\main\\java\\resources\\data.properties";
 		FileInputStream fis = new FileInputStream(PropPath);

@@ -37,6 +37,9 @@ WebDriver driver;
 		driver.get(prop.getProperty("website"));
 		log.info("Opned the site for frames");
 		
+		driver.manage().window().maximize();
+		log.info("Maximize the window ");
+		
 	}
 	@Test
 	public void framestesting()

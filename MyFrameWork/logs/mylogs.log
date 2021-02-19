@@ -1,5 +1,6 @@
-09:35:35.048 [main] INFO  Project.MyFrameWork.HomePageTest - Login page is started
-09:35:35.050 [main] INFO  Project.MyFrameWork.HomePageTest - the user is tester2@gmail.com
-09:35:35.126 [main] INFO  Project.MyFrameWork.HomePageTest - the user is passs
-09:35:35.418 [main] INFO  Project.MyFrameWork.HomePageTest - Switching to the frame first 
-09:35:35.461 [main] INFO  Project.MyFrameWork.HomePageTest - finding the source and target nd moing them with actions 
+10:16:37.057 [main] INFO  Project.MyFrameWork.HomePageTest - the user is pas
+10:16:38.688 [main] INFO  Project.MyFrameWork.HomePageTest - Login page is started
+10:16:38.689 [main] INFO  Project.MyFrameWork.HomePageTest - the user is tester2@gmail.com
+10:16:38.750 [main] INFO  Project.MyFrameWork.HomePageTest - the user is passs
+10:16:38.956 [main] INFO  Project.MyFrameWork.HomePageTest - Switching to the frame first 
+10:16:38.987 [main] INFO  Project.MyFrameWork.HomePageTest - finding the source and target nd moing them with actions 

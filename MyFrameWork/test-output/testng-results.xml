@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="0" failed="0" skipped="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-19T09:21:52 IST" name="Suite" finished-at="2021-02-19T09:22:16 IST" duration-ms="23349">
+  <suite started-at="2021-02-19T10:10:47 IST" name="Suite" finished-at="2021-02-19T10:10:47 IST" duration-ms="83">
     <groups>
     </groups>
-    <test started-at="2021-02-19T09:21:52 IST" name="Test" finished-at="2021-02-19T09:22:16 IST" duration-ms="23349">
+    <test started-at="2021-02-19T10:10:47 IST" name="Test" finished-at="2021-02-19T10:10:47 IST" duration-ms="83">
       <class name="Project.MyFrameWork.LoginPageTest">
-        <test-method is-config="true" signature="driverandurlTest()[pri:0, instance:Project.MyFrameWork.LoginPageTest@158d255c]" started-at="2021-02-19T09:22:06 IST" name="driverandurlTest" finished-at="2021-02-19T09:22:08 IST" duration-ms="1350" status="PASS">
+        <test-method is-config="true" signature="driverandurlTest()[pri:0, instance:Project.MyFrameWork.LoginPageTest@158d255c]" started-at="2021-02-19T10:10:47 IST" name="driverandurlTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1613709647815" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverandurlTest -->
-        <test-method signature="LoginPageTest(java.lang.String, java.lang.String)[pri:0, instance:Project.MyFrameWork.LoginPageTest@158d255c]" started-at="2021-02-19T09:22:08 IST" name="LoginPageTest" data-provider="getData" finished-at="2021-02-19T09:22:13 IST" duration-ms="4991" status="PASS">
+        <test-method signature="LoginPageTest(java.lang.String, java.lang.String)[pri:0, instance:Project.MyFrameWork.LoginPageTest@158d255c]" started-at="2021-02-19T10:10:47 IST" name="LoginPageTest" data-provider="getData" finished-at="2021-02-19T10:10:47 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -24,10 +24,45 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "browsername" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "browsername" is null
+at resources.DriverClass.initdriver(DriverClass.java:46)
+at Project.MyFrameWork.FramesPageTest.driverandurlTest(FramesPageTest.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageTest -->
-        <test-method signature="LoginPageTest(java.lang.String, java.lang.String)[pri:0, instance:Project.MyFrameWork.LoginPageTest@158d255c]" started-at="2021-02-19T09:22:13 IST" name="LoginPageTest" data-provider="getData" finished-at="2021-02-19T09:22:14 IST" duration-ms="1527" status="PASS">
+        <test-method signature="LoginPageTest(java.lang.String, java.lang.String)[pri:0, instance:Project.MyFrameWork.LoginPageTest@158d255c]" started-at="2021-02-19T10:10:47 IST" name="LoginPageTest" data-provider="getData" finished-at="2021-02-19T10:10:47 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -40,38 +75,178 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "browsername" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "browsername" is null
+at resources.DriverClass.initdriver(DriverClass.java:46)
+at Project.MyFrameWork.FramesPageTest.driverandurlTest(FramesPageTest.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageTest -->
-        <test-method is-config="true" signature="closAllTest()[pri:0, instance:Project.MyFrameWork.LoginPageTest@158d255c]" started-at="2021-02-19T09:22:15 IST" name="closAllTest" finished-at="2021-02-19T09:22:16 IST" duration-ms="397" status="PASS">
+        <test-method is-config="true" signature="closAllTest()[pri:0, instance:Project.MyFrameWork.LoginPageTest@158d255c]" started-at="2021-02-19T10:10:47 IST" name="closAllTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1613709647872" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closAllTest -->
       </class> <!-- Project.MyFrameWork.LoginPageTest -->
       <class name="Project.MyFrameWork.HomePageTest">
-        <test-method is-config="true" signature="driverandurlTest()[pri:0, instance:Project.MyFrameWork.HomePageTest@7072bc39]" started-at="2021-02-19T09:22:01 IST" name="driverandurlTest" finished-at="2021-02-19T09:22:06 IST" duration-ms="5293" status="PASS">
+        <test-method is-config="true" signature="driverandurlTest()[pri:0, instance:Project.MyFrameWork.HomePageTest@7072bc39]" started-at="2021-02-19T10:10:47 IST" name="driverandurlTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1613709647811" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverandurlTest -->
-        <test-method signature="LandingPageTest()[pri:0, instance:Project.MyFrameWork.HomePageTest@7072bc39]" started-at="2021-02-19T09:22:08 IST" name="LandingPageTest" finished-at="2021-02-19T09:22:08 IST" duration-ms="89" status="PASS">
+        <test-method signature="LandingPageTest()[pri:0, instance:Project.MyFrameWork.HomePageTest@7072bc39]" started-at="2021-02-19T10:10:47 IST" name="LandingPageTest" finished-at="2021-02-19T10:10:47 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "browsername" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "browsername" is null
+at resources.DriverClass.initdriver(DriverClass.java:46)
+at Project.MyFrameWork.FramesPageTest.driverandurlTest(FramesPageTest.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LandingPageTest -->
-        <test-method is-config="true" signature="closAllTest()[pri:0, instance:Project.MyFrameWork.HomePageTest@7072bc39]" started-at="2021-02-19T09:22:15 IST" name="closAllTest" finished-at="2021-02-19T09:22:15 IST" duration-ms="560" status="PASS">
+        <test-method is-config="true" signature="closAllTest()[pri:0, instance:Project.MyFrameWork.HomePageTest@7072bc39]" started-at="2021-02-19T10:10:47 IST" name="closAllTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1613709647871" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closAllTest -->
       </class> <!-- Project.MyFrameWork.HomePageTest -->
       <class name="Project.MyFrameWork.FramesPageTest">
-        <test-method is-config="true" signature="driverandurlTest()[pri:0, instance:Project.MyFrameWork.FramesPageTest@2ca65ce4]" started-at="2021-02-19T09:21:52 IST" name="driverandurlTest" finished-at="2021-02-19T09:22:01 IST" duration-ms="8601" status="PASS">
+        <test-method is-config="true" signature="driverandurlTest()[pri:0, instance:Project.MyFrameWork.FramesPageTest@2ca65ce4]" started-at="2021-02-19T10:10:47 IST" name="driverandurlTest" finished-at="2021-02-19T10:10:47 IST" duration-ms="7" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "browsername" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "browsername" is null
+at resources.DriverClass.initdriver(DriverClass.java:46)
+at Project.MyFrameWork.FramesPageTest.driverandurlTest(FramesPageTest.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverandurlTest -->
-        <test-method signature="framestesting()[pri:0, instance:Project.MyFrameWork.FramesPageTest@2ca65ce4]" started-at="2021-02-19T09:22:14 IST" name="framestesting" finished-at="2021-02-19T09:22:15 IST" duration-ms="500" status="PASS">
+        <test-method signature="framestesting()[pri:0, instance:Project.MyFrameWork.FramesPageTest@2ca65ce4]" started-at="2021-02-19T10:10:47 IST" name="framestesting" finished-at="2021-02-19T10:10:47 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "browsername" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "browsername" is null
+at resources.DriverClass.initdriver(DriverClass.java:46)
+at Project.MyFrameWork.FramesPageTest.driverandurlTest(FramesPageTest.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- framestesting -->
-        <test-method is-config="true" signature="closAllTest()[pri:0, instance:Project.MyFrameWork.FramesPageTest@2ca65ce4]" started-at="2021-02-19T09:22:16 IST" name="closAllTest" finished-at="2021-02-19T09:22:16 IST" duration-ms="190" status="PASS">
+        <test-method is-config="true" signature="closAllTest()[pri:0, instance:Project.MyFrameWork.FramesPageTest@2ca65ce4]" started-at="2021-02-19T10:10:48 IST" name="closAllTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1613709648242" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closAllTest -->

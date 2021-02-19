@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/4</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Feb 19 09:21:52 IST 2021</td>
+<td>Started on:</td><td>Fri Feb 19 10:10:47 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>23 seconds (23349 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (83 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,80 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Project.MyFrameWork.FramesPageTest.driverandurlTest()'><b>driverandurlTest</b><br>Test class: Project.MyFrameWork.FramesPageTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browsername&quot; is null
+	at resources.DriverClass.initdriver(DriverClass.java:46)
+	at Project.MyFrameWork.FramesPageTest.driverandurlTest(FramesPageTest.java:35)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2015261478", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2015261478'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browsername&quot; is null
+	at resources.DriverClass.initdriver(DriverClass.java:46)
+	at Project.MyFrameWork.FramesPageTest.driverandurlTest(FramesPageTest.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Project.MyFrameWork.FramesPageTest@2ca65ce4</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Project.MyFrameWork.HomePageTest.driverandurlTest()'><b>driverandurlTest</b><br>Test class: Project.MyFrameWork.HomePageTest</td>
+<td></td>
+<td>-1613709647</td>
+<td>Project.MyFrameWork.HomePageTest@7072bc39</td></tr>
+<tr>
+<td title='Project.MyFrameWork.LoginPageTest.driverandurlTest()'><b>driverandurlTest</b><br>Test class: Project.MyFrameWork.LoginPageTest</td>
+<td></td>
+<td>-1613709647</td>
+<td>Project.MyFrameWork.LoginPageTest@158d255c</td></tr>
+<tr>
+<td title='Project.MyFrameWork.HomePageTest.closAllTest()'><b>closAllTest</b><br>Test class: Project.MyFrameWork.HomePageTest</td>
+<td></td>
+<td>-1613709647</td>
+<td>Project.MyFrameWork.HomePageTest@7072bc39</td></tr>
+<tr>
+<td title='Project.MyFrameWork.LoginPageTest.closAllTest()'><b>closAllTest</b><br>Test class: Project.MyFrameWork.LoginPageTest</td>
+<td></td>
+<td>-1613709647</td>
+<td>Project.MyFrameWork.LoginPageTest@158d255c</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -76,22 +148,146 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='Project.MyFrameWork.HomePageTest.LandingPageTest()'><b>LandingPageTest</b><br>Test class: Project.MyFrameWork.HomePageTest</td>
-<td></td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browsername&quot; is null
+	at resources.DriverClass.initdriver(DriverClass.java:46)
+	at Project.MyFrameWork.FramesPageTest.driverandurlTest(FramesPageTest.java:35)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1060935276", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1060935276'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browsername&quot; is null
+	at resources.DriverClass.initdriver(DriverClass.java:46)
+	at Project.MyFrameWork.FramesPageTest.driverandurlTest(FramesPageTest.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
 <td>Project.MyFrameWork.HomePageTest@7072bc39</td></tr>
 <tr>
 <td title='Project.MyFrameWork.LoginPageTest.LoginPageTest()'><b>LoginPageTest</b><br>Test class: Project.MyFrameWork.LoginPageTest<br>Parameters: tester1@gmail.com, pas</td>
-<td></td>
-<td>4</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browsername&quot; is null
+	at resources.DriverClass.initdriver(DriverClass.java:46)
+	at Project.MyFrameWork.FramesPageTest.driverandurlTest(FramesPageTest.java:35)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace828241083", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace828241083'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browsername&quot; is null
+	at resources.DriverClass.initdriver(DriverClass.java:46)
+	at Project.MyFrameWork.FramesPageTest.driverandurlTest(FramesPageTest.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
 <td>Project.MyFrameWork.LoginPageTest@158d255c</td></tr>
 <tr>
 <td title='Project.MyFrameWork.LoginPageTest.LoginPageTest()'><b>LoginPageTest</b><br>Test class: Project.MyFrameWork.LoginPageTest<br>Parameters: tester2@gmail.com, passs</td>
-<td></td>
-<td>1</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browsername&quot; is null
+	at resources.DriverClass.initdriver(DriverClass.java:46)
+	at Project.MyFrameWork.FramesPageTest.driverandurlTest(FramesPageTest.java:35)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1069584108", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1069584108'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browsername&quot; is null
+	at resources.DriverClass.initdriver(DriverClass.java:46)
+	at Project.MyFrameWork.FramesPageTest.driverandurlTest(FramesPageTest.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
 <td>Project.MyFrameWork.LoginPageTest@158d255c</td></tr>
 <tr>
 <td title='Project.MyFrameWork.FramesPageTest.framestesting()'><b>framestesting</b><br>Test class: Project.MyFrameWork.FramesPageTest</td>
-<td></td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browsername&quot; is null
+	at resources.DriverClass.initdriver(DriverClass.java:46)
+	at Project.MyFrameWork.FramesPageTest.driverandurlTest(FramesPageTest.java:35)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2063786038", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2063786038'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browsername&quot; is null
+	at resources.DriverClass.initdriver(DriverClass.java:46)
+	at Project.MyFrameWork.FramesPageTest.driverandurlTest(FramesPageTest.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
 <td>Project.MyFrameWork.FramesPageTest@2ca65ce4</td></tr>
 </table><p>

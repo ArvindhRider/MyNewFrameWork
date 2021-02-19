@@ -13,8 +13,11 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.GeckoDriverInfo;
+
+import okio.Options;
 
 public class DriverClass 
 {
@@ -40,11 +43,19 @@ public class DriverClass
 		String browsername = System.getProperty("browser");
 		
 		//Selecting the browser
-		if(browsername.equalsIgnoreCase("chrome"))
+		if(browsername.contains("chrome"))
 		{
 			System.out.println("Chrome ");
 			System.setProperty("webdriver.chrome.driver", "E:\\2021_Selenium\\BrowserDrivers\\chromedriver.exe");
-			 driver = new ChromeDriver();
+			
+			//To perform headless mode of running 
+			ChromeOptions options = new ChromeOptions();
+			if(browsername.contains("headless"))
+			{
+				options.addArguments("headless");
+			}
+			
+			 driver = new ChromeDriver(options);
 		}
 		else if(browsername.equalsIgnoreCase("Firefox"))
 		{

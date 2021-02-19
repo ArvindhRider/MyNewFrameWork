@@ -1,7 +1,7 @@
-09:34:37.569 [main] INFO  Project.MyFrameWork.HomePageTest - driver is started
-09:34:57.763 [main] INFO  Project.MyFrameWork.HomePageTest - url is started
-09:35:07.210 [main] INFO  Project.MyFrameWork.HomePageTest - driver is started
-09:35:07.303 [main] INFO  Project.MyFrameWork.HomePageTest - Landing page is started 
-09:35:32.319 [main] INFO  Project.MyFrameWork.HomePageTest - Login page is started
-09:35:32.320 [main] INFO  Project.MyFrameWork.HomePageTest - the user is tester1@gmail.com
-09:35:32.396 [main] INFO  Project.MyFrameWork.HomePageTest - the user is pas
+10:16:24.870 [main] INFO  Project.MyFrameWork.HomePageTest - Maximize the window 
+10:16:25.976 [main] INFO  Project.MyFrameWork.HomePageTest - driver is started
+10:16:29.441 [main] INFO  Project.MyFrameWork.HomePageTest - url is started
+10:16:30.417 [main] INFO  Project.MyFrameWork.HomePageTest - driver is started
+10:16:30.442 [main] INFO  Project.MyFrameWork.HomePageTest - Landing page is started 
+10:16:36.983 [main] INFO  Project.MyFrameWork.HomePageTest - Login page is started
+10:16:36.983 [main] INFO  Project.MyFrameWork.HomePageTest - the user is tester1@gmail.com

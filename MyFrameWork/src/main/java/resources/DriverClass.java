@@ -35,7 +35,9 @@ public class DriverClass
 		String PropPath = "C:\\Users\\ARVINDH\\git\\repository\\MyFrameWork\\src\\main\\java\\resources\\data.properties";
 		FileInputStream fis = new FileInputStream(PropPath);
 		prop.load(fis);
-		String browsername= prop.getProperty("browser");    //prop.getProperty has the return type of string 
+		
+		//String browsername= prop.getProperty("browser");    //prop.getProperty has the return type of string 
+		String browsername = System.getProperty("browser");
 		
 		//Selecting the browser
 		if(browsername.equalsIgnoreCase("chrome"))

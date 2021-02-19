@@ -1,0 +1,6 @@
+09:22:08.195 [main] INFO  Project.MyFrameWork.HomePageTest - driver is started
+09:22:08.232 [main] INFO  Project.MyFrameWork.HomePageTest - Landing page is started 
+09:22:12.889 [main] INFO  Project.MyFrameWork.HomePageTest - Login page is started
+09:22:12.889 [main] INFO  Project.MyFrameWork.HomePageTest - the user is tester1@gmail.com
+09:22:12.975 [main] INFO  Project.MyFrameWork.HomePageTest - the user is pas
+09:22:14.555 [main] INFO  Project.MyFrameWork.HomePageTest - Login page is started

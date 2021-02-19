@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-18T20:14:15 IST" name="Suite" finished-at="2021-02-18T20:14:56 IST" duration-ms="41581">
+  <suite started-at="2021-02-19T09:21:52 IST" name="Suite" finished-at="2021-02-19T09:22:16 IST" duration-ms="23349">
     <groups>
     </groups>
-    <test started-at="2021-02-18T20:14:15 IST" name="Test" finished-at="2021-02-18T20:14:56 IST" duration-ms="41581">
+    <test started-at="2021-02-19T09:21:52 IST" name="Test" finished-at="2021-02-19T09:22:16 IST" duration-ms="23349">
       <class name="Project.MyFrameWork.LoginPageTest">
-        <test-method is-config="true" signature="driverandurlTest()[pri:0, instance:Project.MyFrameWork.LoginPageTest@525d79f0]" started-at="2021-02-18T20:14:24 IST" name="driverandurlTest" finished-at="2021-02-18T20:14:26 IST" duration-ms="2468" status="PASS">
+        <test-method is-config="true" signature="driverandurlTest()[pri:0, instance:Project.MyFrameWork.LoginPageTest@158d255c]" started-at="2021-02-19T09:22:06 IST" name="driverandurlTest" finished-at="2021-02-19T09:22:08 IST" duration-ms="1350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverandurlTest -->
-        <test-method signature="LoginPageTest(java.lang.String, java.lang.String)[pri:0, instance:Project.MyFrameWork.LoginPageTest@525d79f0]" started-at="2021-02-18T20:14:27 IST" name="LoginPageTest" data-provider="getData" finished-at="2021-02-18T20:14:45 IST" duration-ms="17108" status="PASS">
+        <test-method signature="LoginPageTest(java.lang.String, java.lang.String)[pri:0, instance:Project.MyFrameWork.LoginPageTest@158d255c]" started-at="2021-02-19T09:22:08 IST" name="LoginPageTest" data-provider="getData" finished-at="2021-02-19T09:22:13 IST" duration-ms="4991" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageTest -->
-        <test-method signature="LoginPageTest(java.lang.String, java.lang.String)[pri:0, instance:Project.MyFrameWork.LoginPageTest@525d79f0]" started-at="2021-02-18T20:14:45 IST" name="LoginPageTest" data-provider="getData" finished-at="2021-02-18T20:14:51 IST" duration-ms="6876" status="PASS">
+        <test-method signature="LoginPageTest(java.lang.String, java.lang.String)[pri:0, instance:Project.MyFrameWork.LoginPageTest@158d255c]" started-at="2021-02-19T09:22:13 IST" name="LoginPageTest" data-provider="getData" finished-at="2021-02-19T09:22:14 IST" duration-ms="1527" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,25 +43,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageTest -->
-        <test-method is-config="true" signature="closAllTest()[pri:0, instance:Project.MyFrameWork.LoginPageTest@525d79f0]" started-at="2021-02-18T20:14:56 IST" name="closAllTest" finished-at="2021-02-18T20:14:56 IST" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="closAllTest()[pri:0, instance:Project.MyFrameWork.LoginPageTest@158d255c]" started-at="2021-02-19T09:22:15 IST" name="closAllTest" finished-at="2021-02-19T09:22:16 IST" duration-ms="397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closAllTest -->
       </class> <!-- Project.MyFrameWork.LoginPageTest -->
       <class name="Project.MyFrameWork.HomePageTest">
-        <test-method is-config="true" signature="driverandurlTest()[pri:0, instance:Project.MyFrameWork.HomePageTest@48f5bde6]" started-at="2021-02-18T20:14:15 IST" name="driverandurlTest" finished-at="2021-02-18T20:14:24 IST" duration-ms="9257" status="PASS">
+        <test-method is-config="true" signature="driverandurlTest()[pri:0, instance:Project.MyFrameWork.HomePageTest@7072bc39]" started-at="2021-02-19T09:22:01 IST" name="driverandurlTest" finished-at="2021-02-19T09:22:06 IST" duration-ms="5293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverandurlTest -->
-        <test-method signature="LandingPageTest()[pri:0, instance:Project.MyFrameWork.HomePageTest@48f5bde6]" started-at="2021-02-18T20:14:27 IST" name="LandingPageTest" finished-at="2021-02-18T20:14:27 IST" duration-ms="745" status="PASS">
+        <test-method signature="LandingPageTest()[pri:0, instance:Project.MyFrameWork.HomePageTest@7072bc39]" started-at="2021-02-19T09:22:08 IST" name="LandingPageTest" finished-at="2021-02-19T09:22:08 IST" duration-ms="89" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LandingPageTest -->
-        <test-method is-config="true" signature="closAllTest()[pri:0, instance:Project.MyFrameWork.HomePageTest@48f5bde6]" started-at="2021-02-18T20:14:51 IST" name="closAllTest" finished-at="2021-02-18T20:14:56 IST" duration-ms="4614" status="PASS">
+        <test-method is-config="true" signature="closAllTest()[pri:0, instance:Project.MyFrameWork.HomePageTest@7072bc39]" started-at="2021-02-19T09:22:15 IST" name="closAllTest" finished-at="2021-02-19T09:22:15 IST" duration-ms="560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closAllTest -->
       </class> <!-- Project.MyFrameWork.HomePageTest -->
+      <class name="Project.MyFrameWork.FramesPageTest">
+        <test-method is-config="true" signature="driverandurlTest()[pri:0, instance:Project.MyFrameWork.FramesPageTest@2ca65ce4]" started-at="2021-02-19T09:21:52 IST" name="driverandurlTest" finished-at="2021-02-19T09:22:01 IST" duration-ms="8601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverandurlTest -->
+        <test-method signature="framestesting()[pri:0, instance:Project.MyFrameWork.FramesPageTest@2ca65ce4]" started-at="2021-02-19T09:22:14 IST" name="framestesting" finished-at="2021-02-19T09:22:15 IST" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- framestesting -->
+        <test-method is-config="true" signature="closAllTest()[pri:0, instance:Project.MyFrameWork.FramesPageTest@2ca65ce4]" started-at="2021-02-19T09:22:16 IST" name="closAllTest" finished-at="2021-02-19T09:22:16 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closAllTest -->
+      </class> <!-- Project.MyFrameWork.FramesPageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

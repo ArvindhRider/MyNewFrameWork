@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Project.MyFrameWork.HomePageTest">
+      <class name="Project.MyFrameWork.FramesPageTest">
         <methods>
-          <include name="driverandurlTest"/>
           <include name="closAllTest"/>
-          <include name="LoginPageTest" invocation-numbers="0 1"/>
-          <include name="LandingPageTest"/>
+          <include name="framestesting"/>
+          <include name="driverandurlTest"/>
         </methods>
-      </class> <!-- Project.MyFrameWork.HomePageTest -->
+      </class> <!-- Project.MyFrameWork.FramesPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -8,6 +8,7 @@
     <classes>
       <class name="Project.MyFrameWork.HomePageTest"/>
       <class name="Project.MyFrameWork.LoginPageTest"/>
+      <class name="Project.MyFrameWork.FramesPageTest"/>
       
     </classes>
   </test> <!-- Test -->

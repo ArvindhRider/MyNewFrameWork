@@ -32,7 +32,7 @@ public class DriverClass
 	{
 		//Reading the data from the prop file
 		 prop = new Properties();
-		String PropPath = "E:\\2021_Selenium\\Selenium_2021\\MyFrameWork\\src\\main\\java\\resources\\data.properties";
+		String PropPath = "C:\\Users\\ARVINDH\\git\\repository\\MyFrameWork\\src\\main\\java\\resources\\data.properties";
 		FileInputStream fis = new FileInputStream(PropPath);
 		prop.load(fis);
 		String browsername= prop.getProperty("browser");    //prop.getProperty has the return type of string 

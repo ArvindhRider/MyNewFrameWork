@@ -6,6 +6,13 @@
   </listeners>
   <test thread-count="5" parallel="tests" name="Test(failed)">
     <classes>
+      <class name="Project.MyFrameWork.FramesPageTest">
+        <methods>
+          <include name="closAllTest"/>
+          <include name="framestesting"/>
+          <include name="driverandurlTest"/>
+        </methods>
+      </class> <!-- Project.MyFrameWork.FramesPageTest -->
       <class name="Project.MyFrameWork.HomePageTest">
         <methods>
           <include name="driverandurlTest"/>
@@ -13,6 +20,13 @@
           <include name="LandingPageTest"/>
         </methods>
       </class> <!-- Project.MyFrameWork.HomePageTest -->
+      <class name="Project.MyFrameWork.LoginPageTest">
+        <methods>
+          <include name="driverandurlTest"/>
+          <include name="closAllTest"/>
+          <include name="LoginPageTest"/>
+        </methods>
+      </class> <!-- Project.MyFrameWork.LoginPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

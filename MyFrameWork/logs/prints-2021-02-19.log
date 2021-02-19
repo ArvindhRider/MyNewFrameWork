@@ -1,6 +1,7 @@
-09:22:08.195 [main] INFO  Project.MyFrameWork.HomePageTest - driver is started
-09:22:08.232 [main] INFO  Project.MyFrameWork.HomePageTest - Landing page is started 
-09:22:12.889 [main] INFO  Project.MyFrameWork.HomePageTest - Login page is started
-09:22:12.889 [main] INFO  Project.MyFrameWork.HomePageTest - the user is tester1@gmail.com
-09:22:12.975 [main] INFO  Project.MyFrameWork.HomePageTest - the user is pas
-09:22:14.555 [main] INFO  Project.MyFrameWork.HomePageTest - Login page is started
+09:34:37.569 [main] INFO  Project.MyFrameWork.HomePageTest - driver is started
+09:34:57.763 [main] INFO  Project.MyFrameWork.HomePageTest - url is started
+09:35:07.210 [main] INFO  Project.MyFrameWork.HomePageTest - driver is started
+09:35:07.303 [main] INFO  Project.MyFrameWork.HomePageTest - Landing page is started 
+09:35:32.319 [main] INFO  Project.MyFrameWork.HomePageTest - Login page is started
+09:35:32.320 [main] INFO  Project.MyFrameWork.HomePageTest - the user is tester1@gmail.com
+09:35:32.396 [main] INFO  Project.MyFrameWork.HomePageTest - the user is pas

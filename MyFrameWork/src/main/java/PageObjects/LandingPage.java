@@ -19,10 +19,10 @@ public class LandingPage
 
 
 	
-	By popup = By.xpath("//div[@class ='sumome-react-wysiwyg-move-handle'] //button[contains(text(),'NO THANKS')]");
-	By login = By.xpath("//a[@href='https://rahulshettyacademy.com/sign_in/']");
-	By title = By.xpath("//div[@class='text-center'] //h2[contains(text(), 'Featured Courses')]");
-	By NaviBar = By.xpath("//ul[@class='nav navbar-nav navbar-right']");
+	private By popup = By.xpath("//div[@class ='sumome-react-wysiwyg-move-handle'] //button[contains(text(),'NO THANKS')]");
+	private By login = By.xpath("//a[@href='https://rahulshettyacademy.com/sign_in/']");
+	private By title = By.xpath("//div[@class='text-center'] //h2[contains(text(), 'Featured Courses')]");
+	private By NaviBar = By.xpath("//ul[@class='nav navbar-nav navbar-right']");
 	
 	public WebElement popcut()
 	{

@@ -4,6 +4,12 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
@@ -84,4 +90,48 @@ public class DriverClass
 			FileUtils.copyFile(src, new File(destination));
 			return destination;
 		}
+		
+		public static ArrayList<String> jdbc() throws SQLException
+		{
+			ArrayList<String> al = new ArrayList<String>();
+			String host="localhost";
+
+			String port= "3306";
+			//connection line 
+			Connection con= DriverManager.getConnection("jdbc:mysql://"+host+":"+port+"/ra","root","AmazonR@5");
+			
+			//to pass our sql statements 
+			Statement s=con.createStatement();
+			ResultSet rs = s.executeQuery("select * from employee");
+
+			while(rs.next())
+			{
+				String names =  rs.getString("name");
+				
+				al.add(names);
+			}
+			
+			return al;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 }

@@ -1,6 +1,9 @@
 package Project.MyFrameWork;
 
 import java.io.IOException;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -65,11 +68,14 @@ WebDriver driver;
 	
 
 	@DataProvider
-	public Object[][] getData()
+	public Object[][] getData() throws SQLException
 	{
+		ArrayList<String> al = DriverClass.jdbc();
+		
+		
 		//we are giving username and password for three sets of students here
 		Object data[][]= new Object[2][2];
-		data[0][0] ="tester1@gmail.com";
+		data[0][0] =al.get(0);
 		data[0][1]= "pas";
 		
 		

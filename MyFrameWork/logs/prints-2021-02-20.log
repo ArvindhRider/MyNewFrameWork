@@ -1,6 +1,6 @@
-15:51:22.193 [main] INFO  Project.MyFrameWork.HomePageTest - the user is arvi
-15:51:22.295 [main] INFO  Project.MyFrameWork.HomePageTest - the user is pas
-15:51:25.216 [main] INFO  Project.MyFrameWork.HomePageTest - Login page is started
-15:51:25.216 [main] INFO  Project.MyFrameWork.HomePageTest - the user is tester2@gmail.com
-15:51:25.312 [main] INFO  Project.MyFrameWork.HomePageTest - the user is passs
-15:51:25.565 [main] INFO  Project.MyFrameWork.HomePageTest - Switching to the frame first 
+18:02:41.184 [main] INFO  Project.MyFrameWork.LoginPageTest - Login page is started
+18:02:41.187 [main] INFO  Project.MyFrameWork.LoginPageTest - the user is tester2@gmail.com
+18:02:41.296 [main] INFO  Project.MyFrameWork.LoginPageTest - the user is passs
+18:02:41.569 [main] INFO  Project.MyFrameWork.FramesPageTest - Switching to the frame first 
+18:02:41.621 [main] INFO  Project.MyFrameWork.FramesPageTest - finding the source and target nd moing them with actions 
+18:02:43.860 [main] INFO  stepDefinitions.stepDefinition - driver is started in facebook page

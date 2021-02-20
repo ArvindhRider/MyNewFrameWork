@@ -6,20 +6,15 @@ import org.openqa.selenium.WebElement;
 
 public class FacebookPage 
 {
-	WebDriver driver;
-	public void FacebookPage(WebDriver driver)
+	public WebDriver driver;	
+	public FacebookPage(WebDriver driver) 
 	{
 		this.driver=driver;
 	}
-	
-	
-	
-	
-	
 
-	
+
 	private By email = By.xpath("//input[@id='email']");
-	private By pass = By.xpath("//div[@id='passContainer']");
+	private By pass = By.xpath("//input[@id='pass']");
 	private By loginbutton = By.xpath("//button[@name='login']");
 	
 	
@@ -38,15 +33,6 @@ public class FacebookPage
 	{
 		return driver.findElement(loginbutton);
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 
 }

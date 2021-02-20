@@ -4,11 +4,13 @@
 <listeners>
 <listener class-name="Project.MyFrameWork.Listeners"/>
 </listeners>
-  <test thread-count="5" name="Test" parallel = "tests">
+  <test thread-count="5" name="Test">
     <classes>
       <class name="Project.MyFrameWork.HomePageTest"/>
       <class name="Project.MyFrameWork.LoginPageTest"/>
       <class name="Project.MyFrameWork.FramesPageTest"/>
+      <class name="cucumberOptions.TestRunner"/>
+      
       
     </classes>
   </test> <!-- Test -->

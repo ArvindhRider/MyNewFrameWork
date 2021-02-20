@@ -24,7 +24,7 @@ WebDriver driver;
 	
 	
 	//Introducing the log object here 
-	public static Logger log = LogManager.getLogger(HomePageTest.class.getName());
+	public static Logger log = LogManager.getLogger(LoginPageTest.class.getName());
 	
 	@BeforeTest
 	public void driverandurlTest() throws IOException

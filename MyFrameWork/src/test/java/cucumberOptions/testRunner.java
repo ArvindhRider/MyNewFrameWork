@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features ="src\\test\\java\\features",
-                  glue=  "stepDefinition")
+                  glue=  "stepDefinitions")
 public class testRunner {
 
 }

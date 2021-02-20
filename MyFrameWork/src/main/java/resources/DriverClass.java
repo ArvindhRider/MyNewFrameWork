@@ -10,11 +10,14 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
-
-
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -115,23 +118,94 @@ public class DriverClass
 		}
 		
 		
+		//getting data from excel
+		
+		public static ArrayList<String> getdata(String testcasename, String sheetname, String columnname) throws IOException
+		{
+			ArrayList<String> a = new ArrayList();
+			//we are getting inside the workbook
+			FileInputStream fis=new FileInputStream("E:\\testing.xlsx");
+			XSSFWorkbook workbook=new XSSFWorkbook(fis);
+			
+			//  we are understanding how many sheets are present in our workbook
+			//from there we are going to our desired sheet 
+			
+			int sheetsinmyworkbook = workbook.getNumberOfSheets();
+			for(int i=0; i<sheetsinmyworkbook;i++)
+			{
+				String sheetsavailable = workbook.getSheetName(i);
+				//System.out.println(sheetsavailable);
+				
+				//getting inside our desired sheet
+				if(sheetsavailable.equalsIgnoreCase(sheetname))
+				{
+					//get that sheet and place it here
+					//get sheet at will do tat trick of getting inside that
+					//desired sheet after if matching
+					//we get the current sheet index
+					XSSFSheet sheet = workbook.getSheetAt(i);
+					
+					//identifying the testcase scanning the entire first column of the sheet
+					//Sheet is nothing but collection of rows!!!!!!
+					Iterator<Row> rows = sheet.iterator();
+					
+					//we need to travel cell by cell inside a row so
+					//first getting row object
+					//from there going inside cell
+					Row firstrow = rows.next();
+					Iterator<Cell>cell= firstrow.iterator();
+					// get the column index(0th column like that) where the testcases is present
+					// we are declaring two vars here
+					//why we need this is becoz one we identified that column index there only
+					//we will go to the next row 
+					int j=0;
+					int coloumn =0;
+					while(cell.hasNext())
+					{
+						Cell valueofcell = cell.next();
+						//System.out.println(valueofcell.toString());
+						if(valueofcell.toString().equalsIgnoreCase(columnname))
+								{
+							//System.out.println("I am in my desired column");
+							break;
+								}
+						coloumn =j;
+						j++;
+						
+					}
+					//System.out.println(coloumn);
+					
+					//once that particular column containing the testcase name is identified then 
+					//go look for the testcase name
+					while(rows.hasNext())
+					{
+						Row r = rows.next();
+						if(r.getCell(coloumn).getStringCellValue().equalsIgnoreCase(testcasename))
+						{
+							//get all the cells available in that row
+						Iterator<Cell> celldata=r.iterator();
+					
+						while(celldata.hasNext())
+						{
+							
+							//System.out.println(celldata.next().getStringCellValue());
+							String entries = celldata.next().toString();
+							a.add(entries);
+							
+							
+						}
+
+
+						}
+					}
+					
+					
+				}
+			}
+			return a;
+		}
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+			
 		
 }

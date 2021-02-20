@@ -68,19 +68,27 @@ WebDriver driver;
 	
 
 	@DataProvider
-	public Object[][] getData() throws SQLException
+	public Object[][] getData() throws SQLException, IOException
 	{
 		ArrayList<String> al = DriverClass.jdbc();
-		
+		ArrayList<String> xl = DriverClass.getdata("thethirddoor","Books","Product name");
 		
 		//we are giving username and password for three sets of students here
-		Object data[][]= new Object[2][2];
+		Object data[][]= new Object[3][2];
+		
+		//firstset is from db
 		data[0][0] =al.get(0);
-		data[0][1]= "pas";
+		data[0][1]= al.get(2);
 		
-		
+		//manual entry trail
 		data[1][0] ="tester2@gmail.com";
 		data[1][1]= "passs";
+		
+		//thirdset from excel datasheet
+		data[2][0] = xl.get(0);
+		data[2][1] = xl.get(1);
+		
+		
 		
 		return data;
 		

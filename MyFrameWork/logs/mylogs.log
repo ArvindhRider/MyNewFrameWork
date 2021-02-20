@@ -1,1 +1,3 @@
-18:02:47.800 [main] INFO  stepDefinitions.stepDefinition - url is started for fb
+18:34:04.756 [main] INFO  Project.MyFrameWork.FramesPageTest - finding the source and target nd moing them with actions 
+18:34:06.984 [main] INFO  stepDefinitions.stepDefinition - driver is started in facebook page
+18:34:10.234 [main] INFO  stepDefinitions.stepDefinition - url is started for fb
